@@ -1,0 +1,3 @@
+
+class RestartProcess(Exception):
+    pass
