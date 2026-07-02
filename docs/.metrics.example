@@ -1,0 +1,29 @@
+# LLM Post Extraction Metrics Example
+
+This file provides a small example subset of the dimensions used by the large language model extractor to evaluate post content. The full system contains 80 dimensions; this example includes 12 dimensions.
+
+
+## Economy and Finance Factors
+
+- tariff_escalation: Signal of raising, threatening, or expanding tariffs.
+- sanctions_escalation: Signal of increasing or threatening sanctions pressure.
+- supply_chain_relocation: Signal of moving supply chains away from a rival or toward aligned partners.
+- market_access_restriction: Signal of restricting another country's access to U.S. or allied markets.
+
+
+
+## Geopolitics and Oil Market Factors
+
+- domestic_energy_expansion: Signal of expanding U.S. domestic oil, gas, or broader energy production, especially where greater domestic output is framed as a source of economic resilience, lower external dependence, stronger inflation control, or enhanced geopolitical leverage.
+- gulf_energy_coordination: Signal of coordinating with Gulf producers on energy supply or oil-market strategy, especially with partners such as Saudi Arabia, Qatar, or Oman, in ways that affect prices, regional stability, or broader U.S. geopolitical objectives.
+- opec_pressure: Signal of pressuring OPEC or oil-producing partners over output or price behavior, especially where the United States seeks production or pricing outcomes more favorable to its own inflation, strategic, or geopolitical interests.
+- energy_inflation_management: Signal of linking energy supply or prices to inflation control or domestic economic management, especially where oil, gas, or broader energy conditions are treated as important drivers of price stability, household costs, or macroeconomic pressure.
+
+
+
+## Negotiation Strategy Factors
+
+- maximalist_opening: Signal that the post uses an extreme, aggressive, or intentionally inflated opening position as a bargaining tactic, where the initial demand, threat, or escalation is likely larger than the true target outcome and is meant to shape the negotiation from a position of maximum pressure.
+- bargaining_leverage: Signal that the post is designed to create, display, or strengthen leverage before negotiation by increasing pressure, raising perceived costs for the other side, or signaling willingness to escalate in order to improve eventual bargaining position.
+- humiliation_pressure: Signal of humiliating, publicly embarrassing, or personally diminishing the target in order to weaken its confidence, reduce its negotiating strength, or push it toward compromise under pressure.
+- pressure_then_relief: Signal of combining heavy pressure, threats, or public escalation with selective temporary relief, softer language, partial pauses, or small concessions from the U.S. side in order to keep the other side engaged while still pushing it toward compromise.
